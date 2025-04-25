@@ -4,8 +4,300 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/main.js" defer></script>
 </head>
+<!--HEADER-->
+
 <body>
-    <h4>hola</h4>
-</body>
-</html>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <img src="img/escudo.png" alt="Logo" style="height: 30px;">
+          GOV.CO
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="d-flex align-items-center ms-auto gap-3">
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Idiomas
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Español</a></li>
+              <li><a class="dropdown-item" href="#">Inglés</a></li>
+            </ul>
+          </div>
+  
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--NAV BAR 1-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" ">
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="#">Temas de conversación:</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Pagos digitales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Cambios operacionales</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link active" aria-disabled="true">Peticiones quejas y reclamos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--BARRA DE ITEMS------------------------------------------------------>
+<div  class="container-fluid py-2">
+  <nav class="d-flex justify-content-center align-items-center flex-wrap gap-3 border-top border-bottom py-2" style="font-size: 0.95rem;">
+    <a  class="text-dark text-decoration-none hover-red">Inicio</a>
+    <span style="padding-top: 3%;" >|</span>
+    <a  class="text-dark text-decoration-none hover-red">TRANSMILENIO S.A</a>
+    <span style="padding-top: 3%;">|</span>
+    <a  class="text-dark text-decoration-none hover-red">Viaje en TransMi</a>
+    <span style="padding-top: 3%;">|</span>
+    <a class="text-dark text-decoration-none hover-red">TransMiCable</a>
+    <span style="padding-top: 3%;">|</span>
+    <a  class="text-dark text-decoration-none hover-red">Descubre Bogotá</a>
+    <span style="padding-top: 3%;">|</span>
+    <a class="text-dark text-decoration-none hover-red">Noticias</a>
+    <span style="padding-top: 3%;">|</span>
+    <a class="text-dark text-decoration-none hover-red">Participa</a>
+    <span style="padding-top: 3%;">|</span>
+    <a  class="text-dark text-decoration-none hover-red">Atención y Servicio a la Ciudadanía</a>
+    <span style="padding-top: 3%;">|</span>
+    <a  class="text-dark text-decoration-none hover-red">Negocios</a>
+  </nav>
+</div>
+
+
+ <!--ANUNCIOS -----------------------------------------------------------------------> 
+ <div class="text-center py-3" style="background-color: #0d4e94; width: 100%;">
+  <h5 style="margin: 0; font-size: 170%; font-weight: bold; color: black;">ANUNCIOS</h5>
+</div>
+<!-- ANUNCIO IMPORTANTE -->
+<div class="container mt-3 text-center" style="padding-top: 3%;">
+  <div class="d-flex justify-content-center">
+    <div style="background-color: #c8102e; color: white; padding: 0.5rem 1rem; font-weight: bold; display: inline-block;">
+      ¡Atención!
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mt-2">
+    <div style="background-color: #0d4e94; color: white; padding: 1rem; font-weight: 500; max-width: 800px; text-align: center;">
+      Por la continuidad en la construcción de la Línea 1 del Metro de Bogotá, a partir del sábado 12 de abril, deja de operar la estación Tercer Milenio.
+      <span style="color: #e84141; font-weight: bold;"> Conozca los detalles.</span>
+    </div>
+  </div>
+</div>
+
+<!--CARRUSEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEL ------------------------------------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-wrap="true" style="padding-top: 3%;">
+  <div class="carousel-indicators" >
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/Not_1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Not_2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Not_3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Not_4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Not_5.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Not_6.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Not_7.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--ENCUENTRA RUTA (forumlario raro) ------------------------------------------------------->
+<div class="container-fluid py-4 mt-5" style="background-color: #2e0074; color: white;">
+  <div class="row justify-content-center px-4" >
+    
+    <div class="col-md-6 mb-4 text-center" style=" font-size: 150%; padding-top: 3%;">
+      <h5 class="fw-bold">¡Atención usuarios!</h5>
+      <p class="mb-0">
+        Nueva ruta circular <br>
+        TransMiZonal <strong>D995-B995</strong> <br>
+        conecta la carrera 9 con <br>
+        TransMilenio en la AV. NQS.
+      </p>
+    </div>
+    <div class="col-md-6 bg-light text-dark rounded p-3">
+      <h6 class="fw-bold">Encuentra tu ruta</h6>
+      <small class="text-muted">Ejemplo: 18-13 o Lomitas y Capilla</small>
+
+      <div class="d-flex align-items-center gap-2 my-2">
+        <div class="rounded-circle" style="background-color: red; width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+        <div class="rounded-circle border" style="width: 12px; height: 12px;"></div>
+      </div>
+
+      <div class="input-group mb-2">
+        <input type="text" class="form-control" placeholder="Buscar ruta">
+        <button class="btn btn-warning fw-bold">Buscar Ruta</button>
+      </div>
+
+      <div class="text-danger text-center mb-2" style="cursor: pointer;">
+        Restablecer
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-warning w-100 me-2">Consultar todas las rutas</button>
+        <button class="btn btn-warning w-100">Paraderos SITP</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--CARRUSEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEL 2222222222222222222------------------------------------------------------->
+<!-- CARRUSEL 222 --------------------------------------------------------------->
+<div id="carouselExampleIndicators222" class="carousel slide" data-bs-wrap="true" style="padding-top: 3%;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators222" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators222" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators222" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/Item1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Item2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/Item3.png" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators222" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators222" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+
+<!--COSAS PEGADAS A LA PANTALLA.....................................................................-->
+<!-- Botón menú fijo -->
+<div id="menu-btn" onclick="toggleMenu()">
+  Menú <br> rápido
+</div>
+
+<!-- Menú desplegable -->
+<div id="side-menu">
+  <ul>
+    <li><a href="#">Para el viaje</a></li>
+    <li><a href="#">Buscador de Rutas</a></li>
+    <li><a href="#">Enlaces TM</a></li>
+    <li><a href="#">Noticias de interés</a></li>
+    <li><a href="#">Contáctenos</a></li>
+    <li><a href="#">Emergencia</a></li>
+    <li><a href="#">Radicación</a></li>
+  </ul>
+</div>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Columna izquierda -->
+      <div class="col-md-6">
+        <h4>Contacto</h4>
+        <h6>Instaurar denuncias de seguridad y emergencias: Línea 123 (24 horas)</h6>
+        <h6>Atención de PQRS: Línea 195 (24 horas) | Línea Fija: (+ 57) 6014824304</h6>
+        <h6>Línea anticorrupción: Línea 195 (24 horas)</h6>
+        <h6>Horario de atención: 07:00 am - 4:30 pm de Lunes a Viernes.</h6>
+        <h6>Dirección:</h6>
+        <h6>Av. Eldorado No. 69 - 76 Edificio Elemento, Torre1, Piso 2.</h6>
+        <h6>Bogotá D.C. (Colombia)</h6>
+        <h6>Ventanilla Virtual</h6>
+        <h6>radicacion@transmilenio.gov.co , horario 7:00 am a 4:30 pm</h6>
+        <h6>Código Postal: 111071</h6>
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="col-md-6 d-flex justify-content-between align-items-start">
+        <div>
+          <h5>Contacto</h5>
+          <h6>A un clic.</h6>
+          <h6>Peticiones, quejas, reclamos</h6>
+          <h6>Zona de Preguntas frecuentes.</h6>
+          <h6>Mapa del sitio Términos y condiciones</h6>
+          <h6>Suscríbete a TransMI al Día</h6>
+          <h6>Haz Negocio con TRANSMILENIO S.A</h6>
+        </div>
+        <div>
+          <img src="img/tra.jpeg" alt="TransMilenio Logo" style="max-height: 150px;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col text-center">
+      <p class="mb-0">Todos los derechos reservados - Prohibida su reproducción parcial o total</p>
+      <small>© 2025 TRANSMILENIO S.A.</small>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+  </body>
+  </html>
+
+
+

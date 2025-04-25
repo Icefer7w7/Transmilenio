@@ -1,0 +1,158 @@
+.custom-navbar {
+    background-color: #1a73e8; /* Puedes cambiarlo por cualquier color */
+  }
+
+  .custom-navbar .nav-link,
+  .custom-navbar .navbar-brand {
+    color: white; /* O el color que quieras para el texto */
+  }
+
+  .hover-red {
+    font-weight: bold;
+    padding-top: 3%;
+  }
+  .hover-red:hover {
+    color: red !important;
+    text-decoration: underline;
+  }
+
+  /*MENU PEGADO---------------------------------------------------*/
+  
+  #menu-btn {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background-color: #d6202b;
+    color: white;
+    padding: 5px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+    border: 3px solid black;
+    text-align: center;
+    width: 100px;
+   
+  }
+  
+  #side-menu {
+    top: 60px;
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-top: 120px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  #side-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #side-menu ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  #side-menu ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  /*Caruusel*/
+/* Contenedor del carrusel con espacio lateral */
+#carouselExampleIndicators {
+  max-width: 80%; /* o 90%, ajusta según gusto */
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Asegura que las imágenes no ocupen todo el ancho */
+.carousel-inner .carousel-item img {
+  border-radius: 15px; /* opcional, para esquinas redondeadas */
+  max-height: 350px;   /* ajusta la altura si quieres más pequeño */
+  object-fit: cover;   /* asegura que la imagen se recorte bien */
+}
+
+/* Posiciona las flechas fuera de la imagen */
+/* Flechas más grandes y centradas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* o cualquier color que combine */
+  border-radius: 50%;
+  width: 40px;  /* aumenta el tamaño */
+  height: 40px;
+  background-size: 70% 70%; /* tamaño del ícono dentro del círculo */
+}
+
+/* Contenedor de flechas: posición más alejada y centrada vertical */
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 10;
+  opacity: 1; /* Asegúrate que se vean bien */
+}
+
+.carousel-control-prev {
+  left: -60px; /* ajusta según el margen deseado */
+}
+
+.carousel-control-next {
+  right: -60px;
+}
+
+/*CARRUSEL 2*/
+
+/* CARRUSEL 2 */
+/* Contenedor del segundo carrusel con espacio lateral */
+#carouselExampleIndicators222 {
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Asegura que las imágenes no ocupen todo el ancho */
+#carouselExampleIndicators222 .carousel-inner .carousel-item img {
+  border-radius: 15px;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* Flechas más grandes y centradas */
+#carouselExampleIndicators222 .carousel-control-prev-icon,
+#carouselExampleIndicators222 .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-size: 70% 70%;
+}
+
+/* Posición de las flechas */
+#carouselExampleIndicators222 .carousel-control-prev,
+#carouselExampleIndicators222 .carousel-control-next {
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 10;
+  opacity: 1;
+}
+
+#carouselExampleIndicators222 .carousel-control-prev {
+  left: -60px;
+}
+
+#carouselExampleIndicators222 .carousel-control-next {
+  right: -60px;
+}
+
+  
+  
